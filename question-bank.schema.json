@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/pocket-study/question-bank.schema.json",
+  "title": "Pocket Study question bank v1",
+  "description": "An offline question bank. Runtime validation additionally checks unique IDs, course references, unique options/keywords, and exact MCQ answer membership.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "courses", "questions"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "courses": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/course" }
+    },
+    "questions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/question" }
+    }
+  },
+  "$defs": {
+    "label": { "type": "string", "minLength": 1, "maxLength": 160, "pattern": "\\S" },
+    "content": { "type": "string", "minLength": 1, "maxLength": 20000, "pattern": "\\S" },
+    "course": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name"],
+      "properties": {
+        "id": { "$ref": "#/$defs/label" },
+        "name": { "$ref": "#/$defs/label" },
+        "color": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+        "icon": { "type": "string", "minLength": 1, "maxLength": 16, "pattern": "\\S" }
+      }
+    },
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "courseId", "topic", "lecture", "type", "prompt", "answer", "explanation", "difficulty"],
+      "properties": {
+        "id": { "$ref": "#/$defs/label" },
+        "courseId": { "$ref": "#/$defs/label" },
+        "topic": { "$ref": "#/$defs/label" },
+        "lecture": { "$ref": "#/$defs/label" },
+        "type": { "enum": ["mcq", "short"] },
+        "prompt": { "$ref": "#/$defs/content" },
+        "options": {
+          "type": "array", "minItems": 2, "maxItems": 8, "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1, "maxLength": 4000, "pattern": "\\S" }
+        },
+        "answer": { "$ref": "#/$defs/content" },
+        "explanation": { "$ref": "#/$defs/content" },
+        "difficulty": { "enum": ["easy", "medium", "hard"] },
+        "keywords": {
+          "type": "array", "minItems": 1, "maxItems": 30, "uniqueItems": true,
+          "items": { "$ref": "#/$defs/label" }
+        },
+        "keywordMode": { "enum": ["all", "any"] }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "const": "mcq" } }, "required": ["type"] },
+          "then": { "required": ["options"], "not": { "anyOf": [{ "required": ["keywords"] }, { "required": ["keywordMode"] }] } },
+          "else": { "not": { "required": ["options"] } }
+        },
+        { "if": { "required": ["keywordMode"] }, "then": { "required": ["keywords"] } }
+      ]
+    }
+  }
+}

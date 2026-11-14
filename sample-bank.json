@@ -1,0 +1,695 @@
+{
+  "schemaVersion": 1,
+  "courses": [
+    {
+      "id": "cell-biology",
+      "name": "Cell Biology",
+      "color": "#b8ead4",
+      "icon": "◈"
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "color": "#d8cefa",
+      "icon": "∑"
+    },
+    {
+      "id": "psychology",
+      "name": "Psychology",
+      "color": "#f6d2b9",
+      "icon": "✦"
+    }
+  ],
+  "questions": [
+    {
+      "id": "bio-001",
+      "courseId": "cell-biology",
+      "topic": "Cell structure",
+      "lecture": "Lecture 01 · The cell",
+      "type": "mcq",
+      "prompt": "Which organelle contains most of the DNA in a typical animal cell?",
+      "options": [
+        "Nucleus",
+        "Lysosome",
+        "Golgi apparatus",
+        "Ribosome"
+      ],
+      "answer": "Nucleus",
+      "explanation": "The nucleus houses most cellular DNA. Mitochondria also contain a small, separate genome.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bio-002",
+      "courseId": "cell-biology",
+      "topic": "Cell structure",
+      "lecture": "Lecture 01 · The cell",
+      "type": "mcq",
+      "prompt": "Which structure is present in plant cells but absent from animal cells?",
+      "options": [
+        "Cell wall",
+        "Plasma membrane",
+        "Mitochondrion",
+        "Ribosome"
+      ],
+      "answer": "Cell wall",
+      "explanation": "Plant cells have a cellulose cell wall outside the plasma membrane. Animal cells have no cell wall.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bio-003",
+      "courseId": "cell-biology",
+      "topic": "Cell structure",
+      "lecture": "Lecture 01 · The cell",
+      "type": "mcq",
+      "prompt": "Where are proteins destined for secretion initially synthesized?",
+      "options": [
+        "Ribosomes bound to the rough endoplasmic reticulum",
+        "Inside lysosomes",
+        "The smooth endoplasmic reticulum lumen",
+        "The Golgi apparatus cisternae"
+      ],
+      "answer": "Ribosomes bound to the rough endoplasmic reticulum",
+      "explanation": "Translation begins in the cytosol. A signal sequence directs the ribosome to the rough ER, where the protein enters the secretory pathway.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bio-004",
+      "courseId": "cell-biology",
+      "topic": "Cell structure",
+      "lecture": "Lecture 01 · The cell",
+      "type": "short",
+      "prompt": "What is the main function of the Golgi apparatus?",
+      "answer": "It modifies, sorts, and packages proteins and lipids for delivery to their destinations.",
+      "explanation": "Cargo from the ER passes through the Golgi. Chemical modifications and sorting direct cargo to membranes, lysosomes, or secretion.",
+      "difficulty": "easy",
+      "keywords": [
+        "sorts",
+        "packages"
+      ],
+      "keywordMode": "all"
+    },
+    {
+      "id": "bio-005",
+      "courseId": "cell-biology",
+      "topic": "Cell structure",
+      "lecture": "Lecture 01 · The cell",
+      "type": "mcq",
+      "prompt": "Which organelle is the main site of oxidative phosphorylation in a eukaryotic cell?",
+      "options": [
+        "Mitochondrion",
+        "Nucleus",
+        "Golgi apparatus",
+        "Peroxisome"
+      ],
+      "answer": "Mitochondrion",
+      "explanation": "The electron transport chain and ATP synthase are in the inner mitochondrial membrane.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bio-006",
+      "courseId": "cell-biology",
+      "topic": "Cell structure",
+      "lecture": "Lecture 01 · The cell",
+      "type": "short",
+      "prompt": "Name the three main components of the eukaryotic cytoskeleton.",
+      "answer": "Microfilaments (actin filaments), intermediate filaments, and microtubules.",
+      "explanation": "These networks support shape, organization, transport, and movement. Microtubules consist of tubulin; microfilaments consist of actin.",
+      "difficulty": "medium",
+      "keywords": [
+        "actin",
+        "intermediate",
+        "microtubules"
+      ],
+      "keywordMode": "all"
+    },
+    {
+      "id": "bio-007",
+      "courseId": "cell-biology",
+      "topic": "Membranes & transport",
+      "lecture": "Lecture 02 · Membranes",
+      "type": "mcq",
+      "prompt": "What best describes the basic structure of a biological membrane?",
+      "options": [
+        "A phospholipid bilayer containing proteins",
+        "A single layer of cellulose",
+        "A rigid sheet of proteins only",
+        "A double layer of DNA"
+      ],
+      "answer": "A phospholipid bilayer containing proteins",
+      "explanation": "Amphipathic phospholipids form a bilayer with hydrophilic heads facing water and hydrophobic tails facing inward. Proteins are embedded in or associated with it.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bio-008",
+      "courseId": "cell-biology",
+      "topic": "Membranes & transport",
+      "lecture": "Lecture 02 · Membranes",
+      "type": "mcq",
+      "prompt": "Which molecule crosses a pure phospholipid bilayer most readily by simple diffusion?",
+      "options": [
+        "Oxygen",
+        "Sodium ion",
+        "Glucose",
+        "A large protein"
+      ],
+      "answer": "Oxygen",
+      "explanation": "Small nonpolar molecules such as oxygen cross the hydrophobic bilayer relatively easily. Ions and many polar molecules need transport proteins.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bio-009",
+      "courseId": "cell-biology",
+      "topic": "Membranes & transport",
+      "lecture": "Lecture 02 · Membranes",
+      "type": "short",
+      "prompt": "Define osmosis.",
+      "answer": "The net movement of water across a selectively permeable membrane toward the side with a higher effective solute concentration.",
+      "explanation": "Osmosis is passive. The direction depends on water potential and on solutes that cannot readily cross the membrane.",
+      "difficulty": "medium",
+      "keywords": [
+        "water",
+        "membrane"
+      ],
+      "keywordMode": "all"
+    },
+    {
+      "id": "bio-010",
+      "courseId": "cell-biology",
+      "topic": "Membranes & transport",
+      "lecture": "Lecture 02 · Membranes",
+      "type": "mcq",
+      "prompt": "An animal cell is placed in a strongly hypotonic solution. What is the expected initial change?",
+      "options": [
+        "Water enters and the cell swells",
+        "Water leaves and the cell shrinks",
+        "The cell wall becomes thicker",
+        "The cell immediately synthesizes chlorophyll"
+      ],
+      "answer": "Water enters and the cell swells",
+      "explanation": "The external solution has a lower effective solute concentration, so water enters. Without a cell wall, excessive swelling can cause lysis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bio-011",
+      "courseId": "cell-biology",
+      "topic": "Membranes & transport",
+      "lecture": "Lecture 02 · Membranes",
+      "type": "mcq",
+      "prompt": "What distinguishes primary active transport from facilitated diffusion?",
+      "options": [
+        "Primary active transport directly uses energy to move a substance against its electrochemical gradient",
+        "Facilitated diffusion always consumes ATP",
+        "Primary active transport never uses proteins",
+        "Facilitated diffusion moves all solutes against a gradient"
+      ],
+      "answer": "Primary active transport directly uses energy to move a substance against its electrochemical gradient",
+      "explanation": "Primary active transport directly couples an energy source, often ATP hydrolysis, to transport. Facilitated diffusion moves substances down their electrochemical gradients through proteins.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bio-012",
+      "courseId": "cell-biology",
+      "topic": "Membranes & transport",
+      "lecture": "Lecture 02 · Membranes",
+      "type": "short",
+      "prompt": "For each ATP hydrolyzed, how many sodium and potassium ions does the sodium–potassium pump typically transport, and in which directions?",
+      "answer": "It exports 3 sodium ions and imports 2 potassium ions per ATP.",
+      "explanation": "The Na⁺/K⁺-ATPase is electrogenic: each cycle moves one net positive charge out of the cell. It helps maintain the ion gradients used by many other processes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bio-013",
+      "courseId": "cell-biology",
+      "topic": "Energy & enzymes",
+      "lecture": "Lecture 03 · Cellular energy",
+      "type": "mcq",
+      "prompt": "What does an enzyme do to the activation energy of a reaction?",
+      "options": [
+        "Lowers it",
+        "Raises it",
+        "Eliminates the need for reactants",
+        "Changes the reaction equilibrium constant"
+      ],
+      "answer": "Lowers it",
+      "explanation": "Enzymes provide a lower-activation-energy reaction pathway. They increase reaction rate without changing the equilibrium constant.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bio-014",
+      "courseId": "cell-biology",
+      "topic": "Energy & enzymes",
+      "lecture": "Lecture 03 · Cellular energy",
+      "type": "mcq",
+      "prompt": "Where does glycolysis take place in a eukaryotic cell?",
+      "options": [
+        "Cytosol",
+        "Mitochondrial matrix",
+        "Nucleus",
+        "Golgi apparatus"
+      ],
+      "answer": "Cytosol",
+      "explanation": "Glycolysis breaks glucose into two pyruvate molecules in the cytosol, producing a net 2 ATP and 2 NADH per glucose.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bio-015",
+      "courseId": "cell-biology",
+      "topic": "Energy & enzymes",
+      "lecture": "Lecture 03 · Cellular energy",
+      "type": "short",
+      "prompt": "What is the net ATP yield of glycolysis per molecule of glucose?",
+      "answer": "2 ATP.",
+      "explanation": "Glycolysis consumes 2 ATP and produces 4 ATP, giving a net gain of 2 ATP. This is separate from ATP that may later be produced using its NADH.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bio-016",
+      "courseId": "cell-biology",
+      "topic": "Energy & enzymes",
+      "lecture": "Lecture 03 · Cellular energy",
+      "type": "mcq",
+      "prompt": "In aerobic respiration, what is the final electron acceptor in the mitochondrial electron transport chain?",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Glucose",
+        "ATP"
+      ],
+      "answer": "Oxygen",
+      "explanation": "Oxygen accepts electrons at the end of the chain and combines with protons to form water.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bio-017",
+      "courseId": "cell-biology",
+      "topic": "Energy & enzymes",
+      "lecture": "Lecture 03 · Cellular energy",
+      "type": "short",
+      "prompt": "Explain how ATP synthase uses a proton gradient.",
+      "answer": "Protons flow down their electrochemical gradient through ATP synthase, driving the phosphorylation of ADP to ATP.",
+      "explanation": "The electron transport chain pumps protons from the matrix to the intermembrane space. Their return through ATP synthase couples the stored gradient energy to ATP production.",
+      "difficulty": "medium",
+      "keywords": [
+        "protons",
+        "ATP"
+      ],
+      "keywordMode": "all"
+    },
+    {
+      "id": "bio-018",
+      "courseId": "cell-biology",
+      "topic": "Energy & enzymes",
+      "lecture": "Lecture 03 · Cellular energy",
+      "type": "mcq",
+      "prompt": "For a Michaelis–Menten enzyme, what is the reaction rate when $[S] = K_m$?",
+      "options": [
+        "$V_{max}/2$",
+        "$V_{max}$",
+        "$2V_{max}$",
+        "Zero"
+      ],
+      "answer": "$V_{max}/2$",
+      "explanation": "Using $v = V_{max}[S]/(K_m + [S])$, setting $[S]=K_m$ gives $v=V_{max}/2$.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bio-019",
+      "courseId": "cell-biology",
+      "topic": "DNA & cell division",
+      "lecture": "Lecture 04 · DNA to daughter cells",
+      "type": "mcq",
+      "prompt": "During which phase of the eukaryotic cell cycle is DNA replicated?",
+      "options": [
+        "S phase",
+        "G1 phase",
+        "G2 phase",
+        "Cytokinesis"
+      ],
+      "answer": "S phase",
+      "explanation": "S stands for synthesis. DNA replication during S phase produces sister chromatids before mitosis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bio-020",
+      "courseId": "cell-biology",
+      "topic": "DNA & cell division",
+      "lecture": "Lecture 04 · DNA to daughter cells",
+      "type": "mcq",
+      "prompt": "During mitosis, when do sister chromatids separate?",
+      "options": [
+        "Anaphase",
+        "Prophase",
+        "Metaphase",
+        "Interphase"
+      ],
+      "answer": "Anaphase",
+      "explanation": "At anaphase, cohesin is cleaved and sister chromatids move toward opposite spindle poles.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bio-021",
+      "courseId": "cell-biology",
+      "topic": "DNA & cell division",
+      "lecture": "Lecture 04 · DNA to daughter cells",
+      "type": "short",
+      "prompt": "What does semiconservative DNA replication mean?",
+      "answer": "Each daughter DNA double helix contains one parental strand and one newly synthesized strand.",
+      "explanation": "Each original strand acts as a template for a new complementary strand. The two daughter molecules each retain half of the original double helix.",
+      "difficulty": "medium",
+      "keywords": [
+        "parental",
+        "new"
+      ],
+      "keywordMode": "all"
+    },
+    {
+      "id": "bio-022",
+      "courseId": "cell-biology",
+      "topic": "DNA & cell division",
+      "lecture": "Lecture 04 · DNA to daughter cells",
+      "type": "mcq",
+      "prompt": "Which enzyme synthesizes RNA from a DNA template during transcription?",
+      "options": [
+        "RNA polymerase",
+        "DNA ligase",
+        "ATP synthase",
+        "Pepsin"
+      ],
+      "answer": "RNA polymerase",
+      "explanation": "RNA polymerase reads a DNA template and synthesizes a complementary RNA strand.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bio-023",
+      "courseId": "cell-biology",
+      "topic": "DNA & cell division",
+      "lecture": "Lecture 04 · DNA to daughter cells",
+      "type": "mcq",
+      "prompt": "Which statement about meiosis is correct?",
+      "options": [
+        "It can produce haploid cells from a diploid cell",
+        "It always produces two genetically identical diploid cells",
+        "It consists of DNA replication after each of its two divisions",
+        "It occurs only in prokaryotes"
+      ],
+      "answer": "It can produce haploid cells from a diploid cell",
+      "explanation": "One round of DNA replication is followed by two divisions. Homologous chromosomes separate in meiosis I; sister chromatids separate in meiosis II.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "bio-024",
+      "courseId": "cell-biology",
+      "topic": "DNA & cell division",
+      "lecture": "Lecture 04 · DNA to daughter cells",
+      "type": "short",
+      "prompt": "What is the role of transfer RNA (tRNA) in translation?",
+      "answer": "tRNA carries a specific amino acid to the ribosome and pairs its anticodon with a complementary mRNA codon.",
+      "explanation": "This pairing links the nucleotide sequence in mRNA to the amino acid sequence of a protein. Aminoacyl-tRNA synthetases attach the appropriate amino acids to tRNAs.",
+      "difficulty": "medium",
+      "keywords": [
+        "amino acid",
+        "anticodon"
+      ],
+      "keywordMode": "all"
+    },
+    {
+      "id": "math-001",
+      "courseId": "mathematics",
+      "topic": "Differentiation",
+      "lecture": "Lecture 01 · Rates of change",
+      "type": "mcq",
+      "prompt": "What is $\\frac{d}{dx}(x^3)$?",
+      "options": [
+        "$3x^2$",
+        "$x^2$",
+        "$3x$",
+        "$x^4/4$"
+      ],
+      "answer": "$3x^2$",
+      "explanation": "The power rule gives $\\frac{d}{dx}x^n = nx^{n-1}$. With $n=3$, the derivative is $3x^2$.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "math-002",
+      "courseId": "mathematics",
+      "topic": "Differentiation",
+      "lecture": "Lecture 01 · Rates of change",
+      "type": "short",
+      "prompt": "Differentiate $f(x)=\\sin x$ with respect to $x$, using radians.",
+      "answer": "$f'(x)=\\cos x$.",
+      "explanation": "For angles measured in radians, the derivative of sine is cosine. The radians condition matters for the standard derivative formulas.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "math-003",
+      "courseId": "mathematics",
+      "topic": "Differentiation",
+      "lecture": "Lecture 01 · Rates of change",
+      "type": "mcq",
+      "prompt": "For $f(x)=(2x+1)^4$, which derivative is correct?",
+      "options": [
+        "$8(2x+1)^3$",
+        "$4(2x+1)^3$",
+        "$8x^3$",
+        "$(2x+1)^5/5$"
+      ],
+      "answer": "$8(2x+1)^3$",
+      "explanation": "The chain rule multiplies the derivative of the outer function, $4(2x+1)^3$, by the derivative of the inner function, $2$.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "math-004",
+      "courseId": "mathematics",
+      "topic": "Integration",
+      "lecture": "Lecture 02 · Accumulation",
+      "type": "short",
+      "prompt": "Evaluate $\\int_0^2 x\\,dx$.",
+      "answer": "$2$.",
+      "explanation": "An antiderivative is $x^2/2$. Evaluating the endpoints gives $[x^2/2]_0^2 = 2-0=2$.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "math-005",
+      "courseId": "mathematics",
+      "topic": "Integration",
+      "lecture": "Lecture 02 · Accumulation",
+      "type": "mcq",
+      "prompt": "Which is the general antiderivative of $1/x$ on an interval not containing zero?",
+      "options": [
+        "$\\ln|x| + C$",
+        "$x^{-2}+C$",
+        "$\\ln x^2+C$",
+        "$e^x+C$"
+      ],
+      "answer": "$\\ln|x| + C$",
+      "explanation": "The derivative of $\\ln|x|$ is $1/x$ wherever $x\\ne0$. The absolute value allows a formula valid on either side of zero.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "math-006",
+      "courseId": "mathematics",
+      "topic": "Algebra",
+      "lecture": "Lecture 03 · Equations",
+      "type": "short",
+      "prompt": "Solve $x^2-5x+6=0$.",
+      "answer": "$x=2$ or $x=3$.",
+      "explanation": "Factor the polynomial: $x^2-5x+6=(x-2)(x-3)$. A product is zero when at least one factor is zero.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "math-007",
+      "courseId": "mathematics",
+      "topic": "Algebra",
+      "lecture": "Lecture 03 · Equations",
+      "type": "mcq",
+      "prompt": "For a real quadratic $ax^2+bx+c=0$ with $a\\ne0$, what does $b^2-4ac<0$ imply?",
+      "options": [
+        "No real roots",
+        "Exactly one real root",
+        "Two distinct real roots",
+        "Both roots are zero"
+      ],
+      "answer": "No real roots",
+      "explanation": "The quadratic formula contains $\\sqrt{b^2-4ac}$. A negative discriminant has no real square root, though two complex conjugate roots exist.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "math-008",
+      "courseId": "mathematics",
+      "topic": "Probability",
+      "lecture": "Lecture 04 · Uncertainty",
+      "type": "mcq",
+      "prompt": "A fair six-sided die is rolled once. What is the probability of an even result?",
+      "options": [
+        "$1/2$",
+        "$1/3$",
+        "$1/6$",
+        "$2/3$"
+      ],
+      "answer": "$1/2$",
+      "explanation": "Three of six equally likely outcomes are even: 2, 4, and 6. Thus $P(\\text{even})=3/6=1/2$.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "math-009",
+      "courseId": "mathematics",
+      "topic": "Probability",
+      "lecture": "Lecture 04 · Uncertainty",
+      "type": "short",
+      "prompt": "State the multiplication rule for the probability of two independent events $A$ and $B$.",
+      "answer": "$P(A\\cap B)=P(A)P(B)$.",
+      "explanation": "Independence means the occurrence of one event does not change the probability of the other. Without independence, use $P(A\\cap B)=P(A)P(B\\mid A)$.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "math-010",
+      "courseId": "mathematics",
+      "topic": "Probability",
+      "lecture": "Lecture 04 · Uncertainty",
+      "type": "mcq",
+      "prompt": "For a binomial random variable $X\\sim\\operatorname{Bin}(n,p)$, what is $\\mathbb{E}[X]$?",
+      "options": [
+        "$np$",
+        "$n/p$",
+        "$p^n$",
+        "$np(1-p)$"
+      ],
+      "answer": "$np$",
+      "explanation": "A binomial variable counts successes in $n$ independent trials, each with success probability $p$. The expectation is the sum of $n$ expectations of $p$.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "psych-001",
+      "courseId": "psychology",
+      "topic": "Learning",
+      "lecture": "Lecture 01 · Learning & behaviour",
+      "type": "mcq",
+      "prompt": "In classical conditioning, what is an unconditioned stimulus?",
+      "options": [
+        "A stimulus that naturally elicits a response without prior conditioning",
+        "A previously neutral stimulus after conditioning",
+        "Any voluntary behaviour",
+        "A reward delivered after a response"
+      ],
+      "answer": "A stimulus that naturally elicits a response without prior conditioning",
+      "explanation": "For example, food can elicit salivation without the animal learning an association between food and salivation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "psych-002",
+      "courseId": "psychology",
+      "topic": "Learning",
+      "lecture": "Lecture 01 · Learning & behaviour",
+      "type": "short",
+      "prompt": "In operant conditioning, what does negative reinforcement mean?",
+      "answer": "Removing or avoiding an aversive stimulus following a behaviour, which increases the future likelihood of that behaviour.",
+      "explanation": "Negative refers to removing a stimulus; reinforcement refers to increasing behaviour. It is distinct from punishment, which decreases behaviour.",
+      "difficulty": "medium",
+      "keywords": [
+        "removing",
+        "increases"
+      ],
+      "keywordMode": "all"
+    },
+    {
+      "id": "psych-003",
+      "courseId": "psychology",
+      "topic": "Learning",
+      "lecture": "Lecture 01 · Learning & behaviour",
+      "type": "mcq",
+      "prompt": "Which schedule reinforces a response after an unpredictable number of responses?",
+      "options": [
+        "Variable ratio",
+        "Fixed ratio",
+        "Variable interval",
+        "Fixed interval"
+      ],
+      "answer": "Variable ratio",
+      "explanation": "Ratio schedules depend on the number of responses. Variable ratio schedules vary the required count around an average.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "psych-004",
+      "courseId": "psychology",
+      "topic": "Memory",
+      "lecture": "Lecture 02 · Memory systems",
+      "type": "mcq",
+      "prompt": "Which example best illustrates episodic memory?",
+      "options": [
+        "Remembering your first day at university",
+        "Knowing the capital of France",
+        "Knowing how to ride a bicycle",
+        "Recognizing a familiar word more quickly after seeing it"
+      ],
+      "answer": "Remembering your first day at university",
+      "explanation": "Episodic memory concerns personally experienced events situated in a context. Knowledge of facts is semantic memory.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "psych-005",
+      "courseId": "psychology",
+      "topic": "Memory",
+      "lecture": "Lecture 02 · Memory systems",
+      "type": "short",
+      "prompt": "What is the difference between recall and recognition?",
+      "answer": "Recall requires generating previously learned information; recognition requires identifying previously encountered information when it is presented.",
+      "explanation": "Answering an open question usually requires recall. Identifying a familiar item among alternatives usually relies on recognition.",
+      "difficulty": "medium",
+      "keywords": [
+        "generating",
+        "identifying"
+      ],
+      "keywordMode": "all"
+    },
+    {
+      "id": "psych-006",
+      "courseId": "psychology",
+      "topic": "Research methods",
+      "lecture": "Lecture 03 · Studying behaviour",
+      "type": "mcq",
+      "prompt": "Why are participants randomly assigned to experimental conditions?",
+      "options": [
+        "To reduce systematic differences between conditions before the manipulation",
+        "To guarantee the sample represents the entire population",
+        "To ensure every participant receives every condition",
+        "To eliminate the need for a control condition"
+      ],
+      "answer": "To reduce systematic differences between conditions before the manipulation",
+      "explanation": "Random assignment helps balance potential confounders across conditions. It differs from random sampling and does not guarantee a representative sample.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "psych-007",
+      "courseId": "psychology",
+      "topic": "Research methods",
+      "lecture": "Lecture 03 · Studying behaviour",
+      "type": "short",
+      "prompt": "Explain why correlation alone does not establish causation.",
+      "answer": "An association can result from a third variable, reverse causation, or other explanations; correlation alone does not isolate the causal effect.",
+      "explanation": "A causal conclusion needs additional evidence and a design that addresses alternative explanations. A correlation can be consistent with causation without proving it.",
+      "difficulty": "medium",
+      "keywords": [
+        "third variable",
+        "reverse"
+      ],
+      "keywordMode": "any"
+    },
+    {
+      "id": "psych-008",
+      "courseId": "psychology",
+      "topic": "Research methods",
+      "lecture": "Lecture 03 · Studying behaviour",
+      "type": "mcq",
+      "prompt": "What is an operational definition?",
+      "options": [
+        "A precise description of how a variable is measured or manipulated",
+        "A statement that a hypothesis must be true",
+        "A list of all possible confounding variables",
+        "The name of a statistical software package"
+      ],
+      "answer": "A precise description of how a variable is measured or manipulated",
+      "explanation": "For example, a study might operationalize memory performance as the number of words correctly recalled from a fixed list. Operational definitions make methods clearer and more reproducible.",
+      "difficulty": "medium"
+    }
+  ]
+}
